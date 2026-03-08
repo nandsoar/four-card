@@ -1,0 +1,35 @@
+@use "@/scss/main";
+
+.root {
+  max-width: 350px;
+  height: 250px;
+  padding: var(--space-400);
+  border-radius: calc(var(--space-100) / 2) calc(var(--space-100) / 2) var(--space-100);
+  box-shadow: 6px 6px 8px color-mix(in srgb, var(--grey-400) 20%, transparent);
+  border-top: 5px solid var(--card-color);
+
+  @container (width <= 768px) {
+    max-width: 314px;
+  }
+  
+  @container (width <= 500px) {
+    height: auto; 
+    width: auto;
+  }
+
+  >h2 {
+    @extend %tp3;
+    color: var(--grey-500);
+  }
+
+  >p {
+    @extend %tp5;
+    margin-top: 6px;
+    color: var(--grey-400);
+  }
+
+  >img {
+    margin-top: 32px;
+    margin-inline: auto 0;
+  }
+}
