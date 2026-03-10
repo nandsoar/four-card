@@ -27,7 +27,7 @@ $primary-bg: var(--white);
     max-width: 540px;
     width: 100%;
 
-    h2:nth-child(1) {
+    h1:nth-child(1) {
       @extend %tp2;
     }
 
