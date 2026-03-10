@@ -31,7 +31,7 @@ $primary-bg: var(--white);
       @extend %tp2;
     }
 
-    h2:nth-child(2) {
+    h1:nth-child(2) {
       @extend %tp1;
     }
 
