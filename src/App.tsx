@@ -8,16 +8,16 @@ function App() {
       <div className={styles.center}>
         <div className={styles.headings}>
           <h1>Reliable, efficient delivery</h1>
-          <h1>Powered by Technology</h1>
+          <h2>Powered by Technology</h2>
           <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your
             project is successful
           </p>
         </div>
-        <div className={styles.cards}>
+        <section className={styles.cards}>
           {cards.map(card => (
             <Card key={card.title} {...card} />
           ))}
-        </div>
+        </section>
       </div>
     </main>
   )
