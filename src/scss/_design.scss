@@ -1,57 +1,57 @@
 $font_family: "Poppins", sans-serif;
 
 :root {
-	--grey-500: #4d4f62;
-	--grey-400: #6a7178;
-	--white: #ffffff;
-	--red: #ea5454;
-	--cyan: #44d3d2;
-	--blue: #549ef2;
-	--orange: #fcae4a;
+  --grey-500: #4d4f62;
+  --grey-400: #6a7178;
+  --white: #ffffff;
+  --red: #ea5454;
+  --cyan: #44d3d2;
+  --blue: #549ef2;
+  --orange: #fcae4a;
 
-	--space-500: 40px;
-	--space-400: 32px;
-	--space-300: 24px;
-	--space-200: 16px;
-	--space-100: 8px;
+  --space-500: 40px;
+  --space-400: 32px;
+  --space-300: 24px;
+  --space-200: 16px;
+  --space-100: 8px;
 }
 
 %tp1 {
-	font-size: 36px;
-	font-weight: 600;
-	line-height: 1.4;
-	letter-spacing: 0.25px;
-	font-family: $font_family;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.25px;
+  font-family: $font_family;
 }
 
 %tp2 {
-	font-size: 36px;
-	font-weight: 200;
-	line-height: 1.4;
-	letter-spacing: 0.25px;
-	font-family: $font_family;
+  font-size: 36px;
+  font-weight: 200;
+  line-height: 1.4;
+  letter-spacing: 0.25px;
+  font-family: $font_family;
 }
 
 %tp3 {
-	font-size: 20px;
-	font-weight: 600;
-	line-height: 1.35;
-	letter-spacing: 0;
-	font-family: $font_family;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0;
+  font-family: $font_family;
 }
 
 %tp4 {
-	font-size: 15px;
-	font-weight: 400;
-	line-height: 1.4;
-	letter-spacing: 0;
-	font-family: $font_family;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0;
+  font-family: $font_family;
 }
 
 %tp5 {
-	font-size: 13px;
-	font-weight: 400;
-	line-height: 1.6;
-	letter-spacing: 0;
-	font-family: $font_family;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0;
+  font-family: $font_family;
 }
