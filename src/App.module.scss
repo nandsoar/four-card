@@ -69,7 +69,7 @@ $primary-bg: var(--white);
       }
     }
 
-    @container main-content (width <=500px) {
+    @container main-content (width <=#{main.$break_small}) {
       grid-template-columns: 1fr;
     }
   }
