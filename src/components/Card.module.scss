@@ -15,7 +15,7 @@ $top_border: calc(var(--space-100) / 2);
     max-width: 314px;
   }
 
-  @container (width <=500px) {
+  @container (width <=#{main.$break_small}) {
     height: auto;
     width: auto;
   }
