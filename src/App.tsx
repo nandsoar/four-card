@@ -6,13 +6,14 @@ function App() {
   return (
     <main className={styles.root}>
       <div className={styles.center}>
-        <div className={styles.headings}>
-          <h1>Reliable, efficient delivery</h1>
-          <h2>Powered by Technology</h2>
-          <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your
-            project is successful
-          </p>
-        </div>
+        <section className={styles.headings}>
+          <h1>
+            <span>Reliable, efficient delivery</span>
+            <br />
+            <span>Powered by Technology</span>
+          </h1>
+          <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful </p>
+        </section>
         <section className={styles.cards}>
           {cards.map(card => (
             <Card key={card.title} {...card} />
