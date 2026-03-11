@@ -21,6 +21,7 @@ $primary-bg: var(--white);
   align-items: center;
   padding: var(--space-200);
 
+
   .headings {
     color: var(--grey-500);
     text-align: center;
@@ -63,13 +64,13 @@ $primary-bg: var(--white);
       }
 
       // Only cards 1 & 4 need an override: span full width
-      article:nth-of-type(1),
+      article:nth-of-type(1), 
       article:nth-of-type(4) {
         grid-column: 1 / -1;
       }
     }
 
-    @container main-content (width <=600px) {
+    @container main-content (width <=#{main.$break_small}) {
       grid-template-columns: 1fr;
     }
   }
